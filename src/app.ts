@@ -1,5 +1,5 @@
 // src/app.ts
-import express from "express";
+//import express from "express";
 import { getUsers } from "./controllers/userController"; // Importa a função getUsers
 
 const app = express();
