@@ -3,7 +3,7 @@ import express from "express";
 import { getUsers } from "./controllers/userController"; // Importa a função getUsers
 
 const app = express();
-const port = 3000; // Você pode mudar a porta se quiser
+const port = 3002; // Você pode mudar a porta se quiser
 
 // Middleware para analisar o corpo das requisições JSON (se necessário para outras rotas)
 app.use(express.json());
