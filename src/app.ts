@@ -1,6 +1,6 @@
 // src/app.ts
 import express from "express";
-import { getUsers } from "./controllers/userController"; // Importa a função getUsers
+//import { getUsers } from "./controllers/userController"; // Importa a função getUsers
 
 const app = express();
 const port = 3002; // Você pode mudar a porta se quiser
